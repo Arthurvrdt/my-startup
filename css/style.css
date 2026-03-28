@@ -1,8 +1,8 @@
 @import url("components/container.css");
 @import url("components/banner.css");
-@import url("components/btn-redbul.css");
+@import url("components/btn-redbull.css");
 @import url("components/avatar.css");
-@import url("components/card.css"); 
+@import url("components/card.css");
 @import url("components/cards-container.css");
 body {
   font-family: 'Lato', sans-serif;
