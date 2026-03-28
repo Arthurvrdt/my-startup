@@ -1,0 +1,49 @@
+.profile-container {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 40px;
+  width: 260px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-container:hover {
+  transform: scale(1.02);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 3px solid #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-name {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin: 10px 0 5px 0;
+  letter-spacing: 10px; 
+  text-transform: uppercase;
+  padding-left: 10px; 
+}
+
+.profile-status {
+  font-family: 'Lato', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.7rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0;
+}

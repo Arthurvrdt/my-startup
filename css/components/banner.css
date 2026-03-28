@@ -1,0 +1,15 @@
+.banner {
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url("../../images/redbul.jpg");
+
+  background-size: cover;
+  background-position: center;
+  padding: 220px 0;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 65px;
+}

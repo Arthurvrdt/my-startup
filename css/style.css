@@ -1,0 +1,45 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/btn-redbul.css");
+@import url("components/avatar.css");
+@import url("components/card.css"); 
+@import url("components/cards-container.css");
+body {
+  font-family: 'Lato', sans-serif;
+  background: linear-gradient(90deg, #001f5b, #0a2a8f, #d40000);
+  margin: 0;
+}
+@media (max-width: 768px) {
+
+  .profile-container {
+    width: 80%;       
+    padding: 30px 15px;
+    margin: 20px auto;
+  }
+
+ 
+  .avatar {
+    width: 100px;
+    height: 100px;
+  }
+
+
+  .profile-name {
+    font-size: 1.1rem;
+    letter-spacing: 6px; 
+    padding-left: 6px;   
+  }
+
+  .profile-status {
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .profile-container {
+    width: 90%;
+    padding: 20px 10px;
+  }
+}

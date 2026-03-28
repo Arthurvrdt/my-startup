@@ -1,0 +1,14 @@
+.btn-redbull {
+  display: inline-block;
+  padding: 16px 36px;
+  background-color: #d40000;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-redbull:hover {
+  background-color: #001f5b;
+  transform: translateY(-3px);
+}

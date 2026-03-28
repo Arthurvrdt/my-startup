@@ -1,0 +1,19 @@
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card img {
+  width: 90%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: lightgrey;
+}
